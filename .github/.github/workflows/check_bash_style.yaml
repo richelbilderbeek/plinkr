@@ -1,6 +1,8 @@
 on:
   push:
   pull_request:
+  schedule:
+  - cron: "0 0 16 * *"
 
 name: check_bash_style
 
